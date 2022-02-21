@@ -1,0 +1,23 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the README at:
+// https://github.com/microsoft/vscode-dev-containers/tree/v0.238.0/containers/php
+{
+	"name": "dev-container",
+	"dockerComposeFile": ["../apps/backend/docker-compose.yml", "docker-compose.yml"],
+	"service": "app",
+    "remoteUser": "sail",
+	"workspaceFolder": "/workspace",
+	"extensions": [
+		"shuworks.vscode-table-formatter",
+		"stef-k.laravel-goto-controller",
+		"wwm.better-align",
+		"eamodio.gitlens",
+		"mhutchie.git-graph",
+		"onecentlin.laravel-blade",
+		"amiralizadeh9480.laravel-extra-intellisense",
+		"codingyu.laravel-goto-view",
+		"naoray.laravel-goto-components",
+		"stef-k.laravel-goto-controller",
+		"xdebug.php-debug",
+		"bmewburn.vscode-intelephense-client"
+	]
+}

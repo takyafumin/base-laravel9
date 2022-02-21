@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  app:
+    command: sleep infinity
+    volumes:
+      - '../../:/workspace'
+      - 'laravel9-php-vendor:/workspace/apps/backend/vendor'
+      - 'laravel9-node-modules:/workspace/apps/backend/node_modules'
